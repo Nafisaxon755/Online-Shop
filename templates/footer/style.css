@@ -1,0 +1,33 @@
+
+body {
+    margin: 0;
+}
+
+footer {
+    background-color:#202020;
+    width: 100%;
+}
+.footer {
+    display: flex;
+    justify-content: space-around;
+    color: rgb(255, 255, 255);
+    padding: 56px 0;
+
+}
+.phone1_zphone {
+    text-decoration: none;
+    font-size: 20px;
+    color: #FFF;
+  align-self: self-end;
+
+
+}
+.phone_and_address{
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+.link_editor_false_logo_img{
+width: 120px;
+
+}
