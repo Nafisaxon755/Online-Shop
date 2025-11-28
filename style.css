@@ -2,6 +2,7 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+  font-family: sans-serif;
 }
 
 .container {
@@ -10,12 +11,20 @@
   padding: 0 16px;
 }
 
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+}
+
 header {
-  background-color: black;
+  background-color: dimgray;
 }
 
 .header__wrapper {
-  padding: 10px 0;
+  padding: 5px 0;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -24,4 +33,93 @@ header {
 .navbar {
   display: flex;
   gap: 20px;
+}
+
+.navbar li a {
+  color: white;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.home {
+  height: 80vh;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    /* Qoraytiruvchi qatlam */ url(./media/picture/clothes1.jpg); /* Asl rasm */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.home__wrapper {
+  padding: 100px 0;
+}
+
+.home__title {
+  color: white;
+  font-size: 50px;
+  font-weight: 500;
+  margin: 200px 0 30px;
+}
+
+.home__text {
+  color: white;
+  font-size: 25px;
+  font-weight: 400;
+  margin-bottom: 30px;
+}
+
+.home__button {
+  background-color: transparent;
+  border: 2px solid white;
+  border-radius: 20px;
+  padding: 20px 80px;
+  color: white;
+  font-size: 20px;
+}
+
+.home__button:hover {
+  border-color: bisque;
+  color: beige;
+}
+
+.order {
+  padding: 100px 0;
+}
+
+.order-card {
+  text-align: center;
+}
+
+.order-card img {
+  width: 300px;
+  height: 400px;
+}
+
+.order-card h4 {
+  font-size: 20px;
+  font-weight: 400;
+  margin: 10px 0;
+}
+
+.order__cards-wrapper {
+  display: flex;
+  gap: 20px;
+}
+
+.order__button {
+  background-color: transparent;
+  border: 1px solid black;
+  border-radius: 10px;
+  padding: 15px 80px;
+  margin-top: 10px;
+  font-size: 20px;
+}
+
+.order__button:hover {
+  border-color: rgb(112, 95, 73);
+  color: rgb(112, 95, 73);
+}
+
+.order__cards-wrapper {
+  margin-top: 20px;
 }
