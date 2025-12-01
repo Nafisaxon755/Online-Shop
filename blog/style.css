@@ -1,0 +1,31 @@
+*{
+    margin: 0 auto ;
+}
+.container{
+width: 1200px;
+padding: 0 16px;
+margin: 0 auto;
+}
+.image{
+    width: 200px;
+    height: 60px;
+  
+}
+.main_link{
+    padding: 8px 10px;
+    text-decoration: none;
+    color: #000;
+    font-size: 16px;
+font-family: Onest, sans-serif;
+}
+.main_link:hover{
+    border: 1px solid rgb(0, 0, 0,.1);
+    background-color: rgb(0, 0, 0,.1);
+}
+.main_bar{
+   
+ display: flex;
+
+    align-items: center;
+
+}
